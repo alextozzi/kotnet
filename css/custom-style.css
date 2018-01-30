@@ -1,0 +1,96 @@
+#black-button, #pink-button {
+    background: #58595b;
+    color: #fff;
+    text-align: left;
+    padding-top:5px;
+    padding-left: 15px;
+    width: 30%;
+    border-bottom: 1px solid #777777;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #333333;
+    border-top: 1px solid #000000;
+    display: block;
+    height: 1.7em;
+    text-decoration: none;
+}
+
+#pink-button {
+    position: relative;
+    margin-top: 5px;
+    background: #e5007d;
+    border-color: #e5007d;
+}
+
+#pink-button:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 10px;
+    display: block;
+    width: 20px;
+    height: 33px;
+    background: url(https://kotnet.telenet.be/sites/all/themes/kotnet/images/cta-round.png) no-repeat;
+}
+
+.white {
+    color:#fff;
+}
+
+.row .blue-container {
+    width: 45%;
+    background-color:#94c8d4;
+}
+
+.row .blue-container .content {
+    padding:40px;
+}
+
+.row .blue-container, .row .white-space {
+    float:left;
+}
+
+.row .white-space {
+    width: 10%;
+}
+.row .blue-container .content .white-price {
+    color:white;
+}
+ .row .content .title {
+     font-size:40px;
+     padding-bottom:20px;
+     color:#3f646d;
+     font-family:omnesbold;
+ }
+
+ .row .content h3 {
+     font-size:30px;
+     font-family:omnesbold;
+
+ }
+ .row .content .small-text {
+     font-size: 20px;
+ }
+.row .content ul {
+    padding-left:20px;
+    list-style-type: disc;
+}
+.row .content li {
+    color:#fff;
+}
+
+.row .content span {
+    color:#3f646d;
+    font-size:20px;
+}
+
+
+@media screen and (max-width: 760px) {
+    #black-button, #pink-button {
+        width:60%;
+    }
+
+    .row .blue-container {
+        width: 100%;
+        background-color:#94c8d4;
+    }
+}

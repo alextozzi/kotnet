@@ -385,7 +385,6 @@ Drupal.behaviors.tlnbe_version_indicator = function (context) {
     }
 
     var span = document.createElement('span');
-    span.appendChild(document.createTextNode(Drupal.settings.tlnbe_version_indicator.version))
     span.style.position = 'absolute';
     span.style.right = '5px';
     span.style.top = '45px';
