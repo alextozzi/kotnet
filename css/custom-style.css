@@ -31,8 +31,65 @@
     background: url(https://kotnet.telenet.be/sites/all/themes/kotnet/images/cta-round.png) no-repeat;
 }
 
+.white {
+    color:#fff;
+}
+
+.row .blue-container {
+    width: 45%;
+    background-color:#94c8d4;
+}
+
+.row .blue-container .content {
+    padding:40px;
+}
+
+.row .blue-container, .row .white-space {
+    float:left;
+}
+
+.row .white-space {
+    width: 10%;
+}
+.row .blue-container .content .white-price {
+    color:white;
+}
+ .row .content .title {
+     font-size:40px;
+     padding-bottom:20px;
+     color:#3f646d;
+     font-family:omnesbold;
+ }
+
+ .row .content h3 {
+     font-size:30px;
+     font-family:omnesbold;
+
+ }
+ .row .content .small-text {
+     font-size: 20px;
+ }
+.row .content ul {
+    padding-left:20px;
+    list-style-type: disc;
+}
+.row .content li {
+    color:#fff;
+}
+
+.row .content span {
+    color:#3f646d;
+    font-size:20px;
+}
+
+
 @media screen and (max-width: 760px) {
     #black-button, #pink-button {
         width:60%;
+    }
+
+    .row .blue-container {
+        width: 100%;
+        background-color:#94c8d4;
     }
 }
