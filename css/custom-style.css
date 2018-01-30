@@ -1,0 +1,32 @@
+#black-button, #pink-button {
+    background: #58595b;
+    color: #fff;
+    text-align:left;
+    padding-left:15px;
+    width:30%;
+    border-bottom: 1px solid #777777;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #333333;
+    border-top: 1px solid #000000;
+    display: block;
+    height: 1.4em;
+    text-decoration:none;
+}
+
+#pink-button {
+    position:relative;
+    margin-top:5px;
+    background: #e5007d;
+    border-color: #e5007d;
+}
+
+#pink-button:after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    display: block;
+    width: 20px;
+    height: 33px;
+    background: url(https://kotnet.telenet.be/sites/all/themes/kotnet/images/cta-round.png) no-repeat;
+}
